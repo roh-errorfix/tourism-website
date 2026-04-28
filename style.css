@@ -1,0 +1,16 @@
+.card{
+    background-color: skyblue;
+    text-align: center;
+}
+.main-heading{
+    color: blue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.paragraph{
+    color: gray;
+    font-size: 20px;
+}
