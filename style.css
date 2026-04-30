@@ -10,15 +10,13 @@
     border-top-right-radius: 25px;
     padding: 15px;
 }
-#main-heading{
-    color: rgb(4, 0, 255);
+.main-heading{
+    color: black;
     font-family:"Roboto";
     font-size: 36px;
     font-style: normal;
-    font-weight: bold;
-    text-decoration: underline;
 }
-#paragraph{
+.paragraph{
     color: gray;
     font-size: 20px;
 }
