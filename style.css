@@ -1,16 +1,32 @@
-.card{
-    background-color: skyblue;
-    text-align: center;
+.bg-card{
+    background-image: url("https://wallpapercave.com/wp/wp4069436.jpg");
+    height: 100vh;
+    background-size: cover;
 }
-.main-heading{
-    color: blue;
-    font-family:Arial, Helvetica, sans-serif;
+.card{
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 15px;
+}
+#main-heading{
+    color: rgb(4, 0, 255);
+    font-family:"Roboto";
     font-size: 36px;
     font-style: normal;
     font-weight: bold;
     text-decoration: underline;
 }
-.paragraph{
+#paragraph{
     color: gray;
     font-size: 20px;
+}
+.btn{
+    height: 36px;
+    width: 125px;
+    background-color: #25b1cc;
+    color: white;
+    border: none;
+    border-radius: 25px;
 }
