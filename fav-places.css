@@ -1,0 +1,70 @@
+.top-places-bg-card{
+    background-image: url("https://i.pinimg.com/736x/cd/19/8c/cd198c4c0f9d06d343f61e6be90accd3.jpg");
+    min-height: 100vh;
+    background-size: cover;
+}
+.top-places-main-heading{
+    color: white;
+    font-size: 30px;
+    width: 80%;
+    padding: 25px;
+    font-weight: bold;
+    font-family: "Roboto";
+    display: inline-block;
+}
+.top-places-card{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 30px;
+}
+.top-places-card-heading{
+    color: rgb(3, 3, 97);
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+}
+.top-places-card-paragraph{
+    color: rgba(3, 50, 92, 0.801);
+    font-family: "Roboto";
+    font-size: 15px;
+}
+.top-places-card-img{
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    margin: 15px;
+    border-color: rgb(143, 56, 6);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+.top-places-card-img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.home-button{
+    line-height: 30px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #36a5f0;
+    color: white;
+    border-radius: 25px;
+    border-width: 0px;
+    margin: 20px;
+    transition: 0.3s;
+}
+.home-button:hover{
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+    color: #36a5f0;
+    background-color: white;
+    border-color: #36a5f0;
+    border-style: solid;
+    border-width: 5px;
+    transform: scale(0.9);
+}
